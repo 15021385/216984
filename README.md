@@ -1,1 +1,11 @@
 # 216984
+int a, b, i;
+            a = int.Parse(Console.ReadLine());
+            b = int.Parse(Console.ReadLine());
+            for (i = a + 1; i <= b - 1; i++)
+            {
+                if (i % 5 == 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
